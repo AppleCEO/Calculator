@@ -66,11 +66,11 @@
 		33AEAE7F24D5B95B00FAEC52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33AEAE7924D5B7D900FAEC52 /* Info.plist */,
 				33AEAE6B24D5B7D600FAEC52 /* AppDelegate.swift */,
 				33AEAE6D24D5B7D600FAEC52 /* SceneDelegate.swift */,
 				33AEAE7424D5B7D900FAEC52 /* Assets.xcassets */,
 				33AEAE7624D5B7D900FAEC52 /* LaunchScreen.storyboard */,
-				33AEAE7924D5B7D900FAEC52 /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
