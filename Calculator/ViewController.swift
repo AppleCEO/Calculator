@@ -23,6 +23,14 @@ class ViewController: UIViewController {
     }
     userIsInTheMiddleOfTyping = true
   }
+  @IBAction func performOperation(_ sender: UIButton) {
+    if let mathmaticalSymbol = sender.currentTitle {
+      if mathmaticalSymbol == "π" {
+        display.text = String(Double.pi)
+      }
+    }
+    
+  }
   
 }
 
