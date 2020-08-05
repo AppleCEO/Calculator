@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
   
+  @IBOutlet weak var display: UILabel!
+  
   @IBAction func touchDigit(_ sender: UIButton) {
     let digit = sender.currentTitle!
     print("touched \(digit) digit")
