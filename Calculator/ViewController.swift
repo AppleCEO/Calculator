@@ -37,6 +37,8 @@ class ViewController: UIViewController {
     if let mathmaticalSymbol = sender.currentTitle {
       if mathmaticalSymbol == "π" {
         displayValue = Double.pi
+      } else if mathmaticalSymbol == "√" {
+        displayValue = sqrt(displayValue)
       }
     }
     
